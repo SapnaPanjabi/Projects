@@ -4,8 +4,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TerminalApp"
-        mc:Ignorable="d"
-        Title="Serial communication" Height="450" Width="800">
+        Title="Serial communication" Height="450" Width="800"
+        ResizeMode = "NoResize">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="13*"/>
@@ -17,7 +17,7 @@
         <Label Content="Port" FontSize="18" HorizontalAlignment="Left" Margin="33,20,0,0" VerticalAlignment="Top"/>
         <ComboBox Name ="cmb_baudrate"  HorizontalAlignment="Left" Margin="138,67,0,0" VerticalAlignment="Top" Width="150" />
         <Label Name ="lblBaudrate" HorizontalAlignment="Left" FontSize="18" Content="Baudrate" Margin="31,60,0,0" VerticalAlignment="Top"/>
-        <Button Content="Send" FontSize="18" HorizontalAlignment="Left" Margin="369,340,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.094,0.513" Click="txtSendBytes_Click" Grid.Column="1"/>
+        <Button Name ="btn_send" Content="Send" FontSize="18" HorizontalAlignment="Left" Margin="369,340,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.094,0.513" Click="btnSendBytes_Click" Grid.Column="1"/>
         <TextBox Name ="lbl_recieveBytes"  HorizontalAlignment="Left" Height="199" Margin="33,114,0,0" TextWrapping="Wrap" Text="" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" VerticalAlignment="Top" Width="723" Grid.ColumnSpan="2"/>
         <TextBox Name ="txtSendBytes" HorizontalAlignment="Left" Height="30" Margin="33,340,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="611" Grid.ColumnSpan="2"/>
         <Button Name ="btn_connect" Content="Connect" FontSize="14" Grid.Column="1" HorizontalAlignment="Left" Margin="348,27,0,0" VerticalAlignment="Top" Width="96" Height="27" Click="btnConnect_Click"/>

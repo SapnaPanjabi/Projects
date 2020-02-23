@@ -23,7 +23,9 @@ namespace TerminalApp
     public partial class MainWindow : Window,ISerialCommCallback
     {
         SerialCom serialCom = null;
-        
+        /// <summary>
+        /// Load Combobox of baudrate and portName
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();
@@ -42,13 +44,25 @@ namespace TerminalApp
             }
             cmb_port.SelectedIndex = 0;
         }
-        
-        private void txtSendBytes_Click(object sender, RoutedEventArgs e)
+
+        /// <summary>
+        /// This is send button click event to send bytes over open port
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnSendBytes_Click(object sender, RoutedEventArgs e)
         {
             byte[] bytes = System.Text.Encoding.UTF8.GetBytes(txtSendBytes.Text);
             serialCom.sendBytes(bytes);
         }
 
+
+        /// <summary>
+        /// Connect button event to estabilish connection with selected port
+        /// Enable/Disable UI elements based on condition
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnConnect_Click(object sender, RoutedEventArgs e) {
             if (btn_connect.Content.ToString().ToUpper().Equals("CONNECT"))
             {
@@ -74,6 +88,11 @@ namespace TerminalApp
             }
         }
 
+        /// <summary>
+        /// Scan button event is to scan all availble com ports
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnScan_Click(object sender, RoutedEventArgs e) {
             string[] ports = serialCom.getAllPortNames();
             cmb_port.Items.Clear();
@@ -84,10 +103,19 @@ namespace TerminalApp
             cmb_port.SelectedIndex = 0;
         }
 
+        /// <summary>
+        /// Clear button event is to clear lblRecievedBytes pad
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnClearText_Click(object sender, RoutedEventArgs e) {
             lbl_recieveBytes.Text = "";
         }
 
+        /// <summary>
+        /// This interface method will show recieved bytes in lbl_recieveBytes control
+        /// </summary>
+        /// <param name="data"></param>
         public void setData(string data)
         {
             lbl_recieveBytes.Text += data + "\n";

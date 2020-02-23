@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerminalApp", "TerminalApp\TerminalApp.csproj", "{B93BF02E-A9FA-406A-B63F-3536CE34ED9B}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TerminalAppSetup", "TerminalAppSetup\TerminalAppSetup.vdproj", "{FB436A19-F495-4337-84B5-662925D62CB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{B93BF02E-A9FA-406A-B63F-3536CE34ED9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B93BF02E-A9FA-406A-B63F-3536CE34ED9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B93BF02E-A9FA-406A-B63F-3536CE34ED9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB436A19-F495-4337-84B5-662925D62CB5}.Debug|Any CPU.ActiveCfg = Debug
+		{FB436A19-F495-4337-84B5-662925D62CB5}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
