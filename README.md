@@ -4,7 +4,7 @@
 * [Technology](#technology)
 * [Flowchart](#flowchart)
 * [Use case diagram](#use-case-diagram)
-* [Sequence Diagram](#sequence-diagram)
+* [Sequence diagram](#sequence-diagram)
 * [Output](#output)
 
 ## About
