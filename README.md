@@ -15,4 +15,4 @@ C#, WPF
 
 ## Screenshots
 
-<img align="left" height = "480" width ="270" src="https://raw.githubusercontent.com/SapnaPanjabi/NewsReaderApp/master/screenshots/image1.png">
+<img align="left" height = "600" width ="1024" src="https://raw.githubusercontent.com/SapnaPanjabi/Projects/master/Documentation/final%20output.png">
