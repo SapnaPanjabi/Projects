@@ -5,7 +5,7 @@
 * [Flowchart](#flowchart)
 * [Use case diagram](#use-case-diagram)
 * [Sequence Diagram](#sequence-diagram)
-* [Screenshots](#screenshots)
+* [Output](#output)
 
 ## About
 
@@ -29,9 +29,11 @@ C#, WPF
 
 ## Sequence diagram
 
+<img height = "600" width ="1024" src="https://raw.githubusercontent.com/SapnaPanjabi/Projects/master/Documentation/SequenceDiag.bmp">
+<br>
+
+## Output
+
 <img src="https://raw.githubusercontent.com/SapnaPanjabi/Projects/master/Documentation/final%20output.png">
 <br>
 
-## Screenshots
-
-<img height = "600" width ="1024" src="https://raw.githubusercontent.com/SapnaPanjabi/Projects/master/Documentation/SequenceDiag.bmp">
