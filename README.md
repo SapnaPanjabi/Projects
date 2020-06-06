@@ -15,21 +15,23 @@ User can specify bandwidth and select port on which he wants to sends or recieve
 ## Techology
 
 C#, WPF
+<br>
 
 ## Flowchart
 
 <img src="https://raw.githubusercontent.com/SapnaPanjabi/Projects/master/Documentation/TerminalApp%20Flowchart.jpg">
-<br><br><br>
+<br>
 
 ## Use case diagram
 
 <img src="https://raw.githubusercontent.com/SapnaPanjabi/Projects/master/Documentation/UseCaseDiag.bmp">
-<br><br><br>
+<br>
 
 ## Sequence diagram
 
 <img src="https://raw.githubusercontent.com/SapnaPanjabi/Projects/master/Documentation/final%20output.png">
-<br><br><br>
+<br>
+
 ## Screenshots
 
-<img align="left" height = "600" width ="1024" src="https://raw.githubusercontent.com/SapnaPanjabi/Projects/master/Documentation/SequenceDiag.bmp">
+<img height = "600" width ="1024" src="https://raw.githubusercontent.com/SapnaPanjabi/Projects/master/Documentation/SequenceDiag.bmp">
