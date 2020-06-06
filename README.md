@@ -14,3 +14,5 @@ User can specify bandwidth and select port on which he wants to sends or recieve
 C#, WPF
 
 ## Screenshots
+
+<img align="left" height = "480" width ="270" src="https://raw.githubusercontent.com/SapnaPanjabi/NewsReaderApp/master/screenshots/image1.png">
