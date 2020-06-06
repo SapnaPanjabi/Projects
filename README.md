@@ -18,16 +18,16 @@ C#, WPF
 
 ## Flowchart
 
-<img align="left" height = "600" width ="1024" src="https://raw.githubusercontent.com/SapnaPanjabi/Projects/master/Documentation/final%20output.png">
+<img align="left" height = "600" width ="1024" src="https://raw.githubusercontent.com/SapnaPanjabi/Projects/master/Documentation/TerminalApp%20Flowchart.jpg">
 
 ## Use case diagram
 
-<img align="left" height = "600" width ="1024" src="https://raw.githubusercontent.com/SapnaPanjabi/Projects/master/Documentation/final%20output.png">
+<img align="left" src="https://raw.githubusercontent.com/SapnaPanjabi/Projects/master/Documentation/UseCaseDiag.bmp">
 
 ## Sequence diagram
 
-<img align="left" height = "600" width ="1024" src="https://raw.githubusercontent.com/SapnaPanjabi/Projects/master/Documentation/final%20output.png">
+<img align="left" src="https://raw.githubusercontent.com/SapnaPanjabi/Projects/master/Documentation/final%20output.png">
 
 ## Screenshots
 
-<img align="left" height = "600" width ="1024" src="https://raw.githubusercontent.com/SapnaPanjabi/Projects/master/Documentation/final%20output.png">
+<img align="left" src="https://raw.githubusercontent.com/SapnaPanjabi/Projects/master/Documentation/SequenceDiag.bmp">
